@@ -1,0 +1,121 @@
+/* header {
+    margin : 20px 0;
+} */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    
+
+}
+
+header .navbar .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    
+}
+header div ul  {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+header div ul li a {
+    padding : 0 20px;
+    text-decoration: none;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 600;
+}
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background: linear-gradient( to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url("Background\ \(1\).png");
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    background-blend-mode: multiply;
+    font-family: 'Montserrat', sans-serif;
+}
+.cover h1 {
+   
+    color: whitesmoke;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+.cover p {
+    margin-top : -35px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #cccccc;
+}
+.cover button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: #7cc576;
+    border-radius: 31px;
+    padding: 15px 25px;
+    border: none;
+   
+}
+.cover button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+.main-services {
+    padding: 2em 15em;
+}
+.main-services h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: bold;
+    color: #222;
+    padding: 0 10px;
+    text-align: center;
+}
+.main-services p {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left : 16rem;
+    color: gray;
+
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 40px;
+    
+        }
+.service h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.services-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.services-container img {
+    
+    align-items: center;
+}
+
+.service p {
+    color: grey;
+}
